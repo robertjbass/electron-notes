@@ -20,7 +20,6 @@ app
     const contextMenu = Menu.buildFromTemplate([
       { label: "Cool", type: "radio" }
     ]);
-    // const tray = new Tray("/my-icon");
-    const tray = new Tray("🔥");
+    const tray = new Tray("/my-icon");
     tray.setToolTip("Electron ToolTip!");
   });
