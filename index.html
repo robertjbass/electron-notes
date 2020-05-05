@@ -8,12 +8,18 @@
 </head>
 
 <body>
-    <div class="textBody"><textarea></textarea></div><br />Hello Electron ⚡!
+    <div class="textBody">
+        <textarea id="txtval" value="test" onclick="txtval">
+        </textarea>
+    </div><br />
+    <button>⚡Electron</button>
 </body>
 
 <style>
     * {
-        color: whitesmoke
+        color: whitesmoke;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16;
     }
 
     textarea {
@@ -21,6 +27,13 @@
         width: 100%;
         margin: auto;
         height: 70%;
+    }
+
+    button {
+        background-color: slateblue;
+        border-radius: 2rem;
+        border-style: none;
+        font-size: 20;
     }
 
     .textBody {
